@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Accion Game Application Test Automation Test Suite">
+    	<listeners>
+    		<listener class-name="ExtentReportListener.ExtentReporterNG" />
+    	</listeners>
+    <test name="Accion Test">
+       <!-- <groups>
+            <run>
+                <include name="sanity"/>
+                <include name="functional"/>
+                <include name="regression"/>
+            </run>
+        </groups>-->
+        <classes>
+            <class name="com.accion.CheckersAppTest"></class>
+            <class name="com.accion.TestNGTests"></class>
+        </classes>
+    </test>
+</suite>
